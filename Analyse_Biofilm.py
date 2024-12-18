@@ -8,9 +8,9 @@ from tkinter import filedialog
 
 def main() :
     global cheminMonoculture
-    cheminMonoculture = "C:/Olivier/Université/UO - Laboratoires/LAB - HMI/LAB - BRPC/Resultats/Année 2/Analyse de donnees/Input_Biofilm_monoculture"
+    cheminMonoculture = "***YOUR-PATH***"
     global cheminPolyespece
-    cheminPolyespece = "C:/Olivier/Université/UO - Laboratoires/LAB - HMI/LAB - BRPC/Resultats/Année 2/Analyse de donnees/Input_Biofilm_polyespece"
+    cheminPolyespece = "***YOUR-PATH***"
 
     ouvrirFenetreChoixDossier("Dossier Monoculture")
     dfMonoculture = importDonnees(cheminMonoculture + "/*.csv")
